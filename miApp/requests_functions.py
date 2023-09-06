@@ -34,6 +34,7 @@ def obtener_usuarios():
         "database": "Estadistica",
         "dataSource": "estadistica",
         "filter": {},
+        "limit": 10000,
     }
 
     headers = {
