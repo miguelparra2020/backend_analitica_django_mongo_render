@@ -33,6 +33,7 @@ def obtener_usuarios():
         "collection": "Usuarios",
         "database": "Estadistica",
         "dataSource": "estadistica",
+        "filter": {},
     }
 
     headers = {
