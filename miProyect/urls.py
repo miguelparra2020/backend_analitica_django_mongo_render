@@ -23,4 +23,5 @@ urlpatterns = [
     path('usuarios/', views.UsuariosListCreate.as_view(), name='usuarios-list-create'),
     path('insertar_usuario/', views.insertar_usuario, name='insertar-usuario'),
     path('obtener_usuarios/', views.obtener_usuarios, name='obtener-usuarios'),
+    path('delete_usuarios/', views.delete_usuarios, name='delete-usuarios'),
 ]
