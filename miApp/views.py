@@ -26,10 +26,3 @@ def obtener_usuarios(request):
     resultado_obtener = requests_functions.obtener_usuarios()
     return Response(resultado_obtener)
 
-@api_view(['POST'])
-def delete_usuarios(request):
-    if request.method == 'POST':
-        data = request.data  # Obtiene los datos del cuerpo de la solicitud POST
-        resultado_delete = requests_functions.delete_usuarios()
-        return Response(resultado_delete)
-
